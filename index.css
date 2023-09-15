@@ -8,7 +8,7 @@ body{
     width:532px;
     height:20px;
     transition: height 2s 100ms;
-    background-image: url(Gru.png);
+    background-image: url("Gru.png");
     color: yellow;
     text-align: center;
 }
