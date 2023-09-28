@@ -1,0 +1,13 @@
+body{
+    background-color: #FFFFFF;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
