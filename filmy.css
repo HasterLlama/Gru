@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@500&display=swap');
+*{
+
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: white;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+#header_span span{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 10vh;
+}
+#header_button{
+    position: absolute;
+    
+    right: 2vh;
+    top: 2vh;
+
+    display: flex;
+    justify-content: center;
+}
+#header_button button{
+    display: flex;
+    justify-content: center;
+}
+#header_button button i{
+    font-size: 3vh;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 80vh;
+
+    align-items: center;
+    justify-content: center;
+}
+.hero_image{
+    display: flex;
+    flex-direction: column;
+
+    background-image: url("https://www.illumination.com/wp-content/uploads/2019/11/DM1_Images_0004.png");
+
+    height: 90vh;
+    width: 90%;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    justify-content: center;
+
+    border: 2px solid;
+    border-radius: 15px;
+}
+.btn-circle.btn-lg {
+    width: 6vh;
+    height: 6vh;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 40px;
+  }
+.btn-primary{
+    border: black;
+    background-color: yellow;
+    color:black;
+}
+.btn-primary:hover, .btn-primary:active{
+    background-color: black !important;
+    color: yellow !important;
+}
